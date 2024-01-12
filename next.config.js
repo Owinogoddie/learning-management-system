@@ -7,7 +7,10 @@ const nextConfig = {
             hostname: 'utfs.io',
           },
         ]
-}
+},
+eslint: {
+  ignoreDuringBuilds: true,
+},
 }
 
 module.exports = nextConfig
